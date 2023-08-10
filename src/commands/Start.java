@@ -19,7 +19,7 @@ public class Start implements Command {
     public Command execute() {
         System.out.println("This is start of application!");
 
-        return MainMenu.getInstance();
+        return CreateNewChar.getInstance();
     }
 
 }
